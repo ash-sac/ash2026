@@ -6,94 +6,126 @@
     <title>Submission - ASH at SAC 2026</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-gray-50 text-gray-800">
+  <body class="bg-gray-50 text-gray-800 font-sans">
+    <!-- Header -->
     <header class="bg-white shadow">
       <div
-        class="container mx-auto px-4 py-6 flex justify-between items-center"
+        class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center"
       >
-        <h1 class="text-2xl font-bold">ASH at SAC 2026</h1>
-        <nav class="space-x-4">
-          <a href="index.html" class="text-blue-600 hover:underline">Home</a>
-          <a href="cfp.html" class="text-blue-600 hover:underline"
-            >Call for Papers</a
-          >
-          <a href="submission.html" class="text-blue-600 hover:underline"
-            >Submission</a
-          >
-          <a href="committee.html" class="text-blue-600 hover:underline"
-            >Committee</a
-          >
+        <h1 class="text-2xl font-bold text-gray-900">ASH at SAC 2026</h1>
+        <nav class="space-x-4 text-blue-600 font-medium">
+          <a href="index.html" class="hover:underline">Home</a>
+          <a href="cfp.html" class="hover:underline">Call for Papers</a>
+          <a href="submission.html" class="hover:underline">Submission</a>
+          <a href="committee.html" class="hover:underline">Committee</a>
         </nav>
       </div>
     </header>
 
-    <main class="container mx-auto px-4 py-12">
-      <h2 class="text-3xl font-semibold mb-6">Paper submission</h2>
-      <p class="text-lg leading-relaxed max-w-3xl mb-4">
-        Manuscripts must be submitted electronically in PDF format, according to
-        the instructions contained in the main Conference web site. The review
-        process is double blind. Please anonymize the paper submitted for
-        review. The paper length is 8 pages, with the option to add 2 additional
-        pages at extra charge, up to a maximum of 10 pages. Contributions must
-        contain original unpublished work. Papers that have been concurrently
-        submitted to other conferences or journals (double submissions) will be
-        automatically rejected. All papers must be submitted through the main
-        conference web page. Paper Acceptance: Paper registration is required,
-        allowing the inclusion of the paper/poster in the conference
-        proceedings. An author or a proxy attending ACM SAC MUST present the
-        paper: This is a requirement for the paper/poster to be included in the
-        ACM/IEEE digital library. No-show of scheduled papers and posters will
-        result in excluding them from the ACM/IEEE digital library.
-      </p>
+    <!-- Main Content -->
+    <main class="max-w-5xl mx-auto px-4 py-12 space-y-12">
+      <!-- Paper Submission -->
+      <section>
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Paper Submission</h2>
+        <p class="text-lg leading-relaxed mb-4">
+          Submissions must follow the guidelines provided on the official SAC
+          conference website. The review process is
+          <span class="font-semibold">double blind</span>, and all manuscripts
+          must be submitted in <span class="font-semibold">PDF format</span>.
+        </p>
 
-      <p>
-        Submission link for full papers:
-        https://easychair.org/my/conference?conf=sac2026
-      </p>
+        <ul class="list-disc pl-6 space-y-2 text-lg mb-4">
+          <li>
+            Maximum length: <strong>8 pages</strong> (up to 2 additional pages
+            allowed with extra fee, for a total of 10)
+          </li>
+          <li>
+            Manuscripts must be <strong>anonymized</strong> for double-blind
+            review
+          </li>
+          <li>
+            Original, unpublished work only;
+            <span class="text-red-600 font-semibold"
+              >no double submissions</span
+            >
+          </li>
+          <li>
+            Accepted papers must be presented at the conference (in-person or
+            proxy)
+          </li>
+          <li>
+            Papers not presented will be excluded from the
+            <strong>ACM Digital Library</strong>
+          </li>
+        </ul>
 
-      <h2 class="text-3xl font-semibold mb-6">
-        Student Research Competition (SRC)
-      </h2>
-      <p class="text-lg leading-relaxed max-w-3xl mb-4">
-        Graduate students seeking feedback from the scientific community on
-        their research ideas are invited to submit abstracts of their original
-        unpublished and in-progress research work in areas of experimental
-        computing and application development related to SAC Tracks. The Student
-        Research Competition (SRC) program is designed to provide graduate
-        students the opportunity to meet and exchange ideas with researcher and
-        practitioners in their areas of interest. All research abstract
-        submissions will be reviewed by researchers and practitioners with
-        expertise in the track focus area to which they are submitted. Authors
-        of selected abstracts will have the opportunity to give poster
-        presentations of their work and compete for three top winning places.
-        The SRC committee will evaluate and select First, Second, and Third
-        place winners. The winners will receive cash awards and SIGAPP
-        recognition certificates during the conference banquet dinner. Authors
-        of selected abstracts are eligible to apply to the SIGAPP Student Travel
-        Award program for support. Submission - Graduate students are invited to
-        submit abstracts (minimum of two pages; maximum of four pages) of their
-        original unpublished and in-progress research work following the
-        instructions published at SAC web-site. The submissions must address
-        research work related to a SAC track, with emphasis on the innovation
-        behind the research idea, including the problem being investigated, the
-        proposed approach and research methodology, and sample preliminary
-        results of the work. In addition, the abstract should reflect on the
-        originality of the work, innovation of the approach, and applicability
-        of anticipated results to real-world problems. All SRC works must be
-        submitted through the main conference web page.
-      </p>
+        <p class="text-lg mb-2">
+          🔗 <strong>Submission Portal:</strong>
+          <a
+            href="https://easychair.org/my/conference?conf=sac2026"
+            target="_blank"
+            class="text-blue-600 hover:underline"
+            >Submit via EasyChair</a
+          >
+        </p>
+      </section>
 
-      <p>
-        Submission link for SRC:
-        https://easychair.org/my/conference?conf=sacsrc2026
-      </p>
+      <!-- SRC Submission -->
+      <section>
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">
+          Student Research Competition (SRC)
+        </h2>
+        <p class="text-lg leading-relaxed mb-4">
+          Graduate students are invited to submit extended abstracts of their
+          original, unpublished, and in-progress research in areas aligned with
+          SAC tracks. The Student Research Competition (SRC) provides a platform
+          for students to receive feedback, present their work, and engage with
+          peers and experts in the field.
+        </p>
+
+        <ul class="list-disc pl-6 space-y-2 text-lg mb-4">
+          <li>Abstract length: <strong>2–4 pages</strong></li>
+          <li>
+            Work must be original and in-progress, with preliminary results
+          </li>
+          <li>
+            Submissions should highlight:
+            <ul class="list-disc pl-6 mt-1 space-y-1">
+              <li>The problem being addressed</li>
+              <li>Proposed approach and methodology</li>
+              <li>Innovation and potential real-world impact</li>
+            </ul>
+          </li>
+          <li>
+            Selected participants will present posters and compete for
+            <strong>1st, 2nd, and 3rd place awards</strong>
+          </li>
+          <li>
+            Winners receive <strong>cash prizes</strong> and
+            <strong>SIGAPP certificates</strong> at the conference banquet
+          </li>
+          <li>
+            Applicants may also qualify for
+            <strong>SIGAPP Student Travel Awards</strong>
+          </li>
+        </ul>
+
+        <p class="text-lg">
+          🔗 <strong>SRC Submission Portal:</strong>
+          <a
+            href="https://easychair.org/my/conference?conf=sacsrc2026"
+            target="_blank"
+            class="text-blue-600 hover:underline"
+            >Submit via EasyChair (SRC)</a
+          >
+        </p>
+      </section>
     </main>
 
-    <footer class="bg-white border-t mt-12">
-      <div
-        class="container mx-auto px-4 py-6 text-center text-sm text-gray-600"
-      >
-        &copy; 2025 Conference. All rights reserved.
+    <!-- Footer -->
+    <footer class="bg-white border-t py-6 mt-12">
+      <div class="text-center text-sm text-gray-600">
+        &copy; 2025 ASH Track to ACM SAC Conference. All rights reserved.
       </div>
     </footer>
   </body>
